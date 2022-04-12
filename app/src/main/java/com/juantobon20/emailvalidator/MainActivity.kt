@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
         val email = findViewById<EditText>(R.id.edit_text)
         val validate: Button = findViewById(R.id.button)
         validate.setOnClickListener { v ->
-            if (EmailValidate.emailValidate!!
+            if (EmailValidate()
                     .isValid(email.text.toString())
             ) Toast.makeText(this@MainActivity, getString(R.string.valid), Toast.LENGTH_SHORT)
                 .show() else Toast.makeText(
