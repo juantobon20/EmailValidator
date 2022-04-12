@@ -10,7 +10,7 @@ android {
         minSdkVersion 21
         targetSdkVersion 32
         versionCode 1
-        versionName "1.0"
+        versionName "1.0.1"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles "consumer-rules.pro"
@@ -45,9 +45,9 @@ afterEvaluate {
                 from components.release
 
                 // You can then customize attributes of the publication as shown below.
-                groupId = 'com.dinkar'
+                groupId = 'com.juantobon20'
                 artifactId = 'email_validator'
-                version = '1.5'
+                version = '1.0.1'
             }
         }
     }
